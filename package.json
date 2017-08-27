@@ -1,0 +1,24 @@
+{
+  "name": "winfit_node",
+  "version": "0.0.1",
+  "description": "backend structure for winfit",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./bin/www"
+  },
+  "keywords": [
+    "winfit",
+    "node"
+  ],
+  "author": "Marcos Loures",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mysql2": "^1.4.1",
+    "sequelize": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/sequelize": "^4.0.72"
+  }
+}
